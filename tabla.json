@@ -1,0 +1,37 @@
+{
+    "co2": {
+        "activity-room": "0-500",
+        "refectory": "0-400",
+        "room-1": "0-300",
+        "bathroom-main": "0-500",
+        "garden": "0-500"
+    },
+    "temperature": {
+        "activity-room": "19-22",
+        "refectory": "20-23",
+        "room-1": "21-23",
+        "bathroom-main": "22-25",
+        "garden": "15-22"
+    },
+    "humidity": {
+        "activity-room": "50-60",
+        "refectory": "50-70",
+        "room-1": "50-60",
+        "bathroom-main": "60-75",
+        "garden": "50-80"
+    },
+    "sound": {
+        "activity-room": "0-40",
+        "refectory": "20-35",
+        "room-1": "10-30",
+        "bathroom-main": "20-35",
+        "garden": "10-35"
+    },
+    "illumination": {
+        "activity-room": "300-750",
+        "refectory": "200-500",
+        "room-1": "100-200",
+        "bathroom-main": "100-200",
+        "garden": "0-0"
+    }
+}
