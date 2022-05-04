@@ -9,8 +9,11 @@ const tabla = JSON.parse(tablaJSON)
 // cuartos tiene los cuartos que pueden haber
 // nombreValores tiene los nombres de los valores que se miden
 const valoresTabla = [Object.values(tabla.co2), Object.values(tabla.temperature), Object.values(tabla.humidity), Object.values(tabla.sound), Object.values(tabla.illumination)]
+
+// Necesito conseguir los nombres de los cuartos, sin tener que escribirlos a mano
 const cuartos = ['activity-room', 'refectory', 'room-1', 'bathroom-main', 'garden']
-const nombresValores = ["co2","temperature","humidity","sound","illumination"]
+// Con esto, hago que no importa la cantidad de valores que voy a leer, siempre los voy a tener aca
+const nombresValores = Object.keys(tabla)
 
 const evaluar = (room, values) => {
     let result = []

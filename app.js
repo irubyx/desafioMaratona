@@ -22,6 +22,7 @@ console.log("Estado actual en: " + room)
 if (alertas.length !== 0) {
     console.log("Cuidado con: ")
     console.log(alertas)
+    fs.writeFileSync("./test.json",JSON.stringify(alertas))
 } else {
     console.log("Todo esta bien por ahora :)")
 }
