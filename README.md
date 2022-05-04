@@ -10,7 +10,7 @@ Se deberá utilizar Cloud Functions para que una vez analizados los valores reci
 
 ## Resumen de la solución
 En primer lugar cree la action que va a recibir el JSON como parámetro que contiene la habitación y los valores de las mediciones.\
-Luego la action, teniendo en cuenta la tabla con el rango de valores permitido para cada medicion en cada habitación, alerta si se presenta o no, alguna anomalía en los datos de entrada.\
+Luego la action, teniendo en cuenta la tabla con el rango de valores permitido para cada medicion en cada habitación, alerta si se presenta o no, alguna anomalía en los datos de entrada.
 
 ## Links de interés
 * [Cloud Functions](https://cloud.ibm.com/functions/) - Página principal de Cloud Functions
