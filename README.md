@@ -28,7 +28,7 @@ Como bien se puede ver en el repositorio, cree 2 actions, 1 llamada *actionPrinc
 *actionPrincipal* se encarga de recibir el parámetro con los datos a validar (nombre del cuarto y valores de las medidas que detectó el sensor), y enviarselo a *actionValidar* para realizar las validaciones correspondientes.
 
 *actionValidar* recibe esos datos, los evalúa y retorna el nombre de las medidas que se salieron de rango.\
-Como se puede ver en el código, yo tengo almacenados en variables los valores permitidos para cada medicion, pero se podría perfectamente cargar una tabla desde una base de datos por ejemplo y así dejar un poco más limpio el código.
+Como se puede ver en el código, se encuentran almacenados en variables los valores permitidos para cada medicion, pero se podría perfectamente cargar una tabla desde una base de datos por ejemplo y así dejar un poco más limpio el código.
 
 ## Links de interés
 Más allá de la consigna del desafío, recomiendo consultar los siguientes links, algunos fueron de gran ayuda a la hora de solucionar el problema.
